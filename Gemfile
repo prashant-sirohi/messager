@@ -52,6 +52,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
-gem 'emoji'
+gem 'bootstrap', '~> 4.0.0.alpha3'
+# gem 'gemoji'
+gem 'rails_emoji_picker'
 gem 'redis'
 gem 'pry-rails'

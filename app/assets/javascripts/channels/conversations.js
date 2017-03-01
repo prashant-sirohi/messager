@@ -47,6 +47,7 @@ jQuery(document).on('turbolinks:load', function() {
       textarea = $this.find('#personal_message_body');
       if ($.trim(textarea.val()).length > 1) {
         App.personal_chat.send_message(textarea.val(), $this.find('#conversation_id').val());
+        debugger;
         textarea.val('');
       }
       e.preventDefault();
